@@ -1,1 +1,4 @@
 #!/bin/bash
+
+# Enable Canonical partner repositories
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
