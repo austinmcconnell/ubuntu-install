@@ -5,3 +5,6 @@ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) pa
 
 # Install Ubuntu Restricted Extras for media codecs
 sudo apt-get install ubuntu-restricted-extras
+
+# Install VLC media player
+sudo apt-get install vlc
