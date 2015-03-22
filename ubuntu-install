@@ -2,3 +2,6 @@
 
 # Enable Canonical partner repositories
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+
+# Install Ubuntu Restricted Extras for media codecs
+sudo apt-get install ubuntu-restricted-extras
