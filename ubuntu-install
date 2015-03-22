@@ -8,3 +8,9 @@ sudo apt-get install ubuntu-restricted-extras
 
 # Install VLC media player
 sudo apt-get install vlc
+
+# Install tlp - improve battery life and reduce overheating
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
