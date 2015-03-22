@@ -22,3 +22,7 @@ sed -i '$ a\notify_when_long_running_commands_finish_install' ~/.bashrc
 
 # Install preload to speed-up application load time
 sudo apt-get install preload
+
+# Suppress language related updates from apt-get
+sudo sed -i '$ a\Acquire::Languages "none";' /etc/apt/apt.conf.d/00aptitude
+
