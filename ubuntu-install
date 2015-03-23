@@ -28,3 +28,8 @@ sudo sed -i '$ a\Acquire::Languages "none";' /etc/apt/apt.conf.d/00aptitude
 
 # Remove default installed games
 sudo apt-get remove gnome-mines aisleriot gnome-mahjongg gnome-sudoku
+
+# Install Atom text editor
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
