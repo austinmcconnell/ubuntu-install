@@ -38,3 +38,5 @@ sudo apt-get install atom
 sudo apt-get install openssh-server
 sudo sed -i '$ a\AllowUsers '$USER /etc/ssh/sshd_config
 
+# Install chromium open-source browser
+sudo apt-get install chromium-browser
