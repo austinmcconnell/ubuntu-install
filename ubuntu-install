@@ -44,3 +44,5 @@ sudo apt-get install chromium-browser
 # Change wallpaper to salcantayperu
 gsettings set org.gnome.desktop.background picture-uri file:/usr/share/backgrounds/salcantayperu_by_Life_Nomadic.jpg
 
+# Disable bluetooth on startup
+sudo sed -i '$ i\rfkill block bluetooth\n' /etc/rc.local
