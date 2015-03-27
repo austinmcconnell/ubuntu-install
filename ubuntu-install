@@ -46,3 +46,9 @@ gsettings set org.gnome.desktop.background picture-uri file:/usr/share/backgroun
 
 # Disable bluetooth on startup
 sudo sed -i '$ i\rfkill block bluetooth\n' /etc/rc.local
+
+# Install PyCharm CE
+sudo add-apt-repository "deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps"
+wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install pycharm
