@@ -52,3 +52,6 @@ sudo add-apt-repository "deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)
 wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install pycharm
+
+# Install tree command line script
+sudo apt-get install tree
