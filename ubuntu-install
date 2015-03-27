@@ -55,3 +55,7 @@ sudo apt-get install pycharm
 
 # Install tree command line script
 sudo apt-get install tree
+
+# Change default Python version to Python3
+touch ~/.bash_aliases
+echo 'alias python=python3' >> ~/.bash_aliases
