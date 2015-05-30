@@ -59,3 +59,6 @@ sudo apt-get install tree
 # Change default Python version to Python3
 touch ~/.bash_aliases
 echo 'alias python=python3' >> ~/.bash_aliases
+
+# Install git
+sudo apt-get install git
