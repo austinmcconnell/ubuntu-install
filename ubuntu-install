@@ -62,3 +62,6 @@ echo 'alias python=python3' >> ~/.bash_aliases
 
 # Install git
 sudo apt-get --yes install git
+
+# Remove Firefox
+sudo apt-get remove firefox
