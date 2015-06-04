@@ -65,3 +65,6 @@ sudo apt-get --yes install git
 
 # Remove Firefox
 sudo apt-get remove firefox
+
+# Install GParted
+sudo apt-get --yes install gparted
